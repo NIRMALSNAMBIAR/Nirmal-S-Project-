@@ -135,16 +135,50 @@
 
 }
 .elipse button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   left: 932px;
     top: -21.5rem;
-  // left: 1044px;
-  // top: -236px;
   border: none;
   color: #ffffff;
   border-radius: 50%;
   background: #241181;
+}
+@media screen and (max-width:1440px) {
+  .btn-modal{
+    left: 838px !important;
+  } 
+}
+@media screen and (max-width:1314px) {
+  .btn-modal{
+    left: 808px !important;
+  } 
+}
+@media screen and (max-width:1282px) {
+  .btn-modal{
+    left: 748px !important;
+  } 
+}
+@media screen and (max-width:1217px) {
+  .btn-modal{
+    left: 688px !important;
+  } 
+}
+@media screen and (max-width:1130px) {
+  .btn-modal{
+    left: 638px !important;
+  } 
+  .content__main img {
+    width: auto !important;
+}
+.content__main {
+  display: flex;
+  flex-direction: column !important;
+}
+.para{
+  display: flex;
+  flex-direction: column !important;
+}
+.content__main img {
+  margin-top: -6rem !important;
+}
 }
