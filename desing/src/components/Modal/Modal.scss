@@ -9,8 +9,8 @@ body.active-modal {
     font-size: 18px;
 }
 
-.moodal,.mooodle
-.overlay {
+.moodal,
+.mooodle .overlay {
     width: 30vw;
     height: 30vh;
     top: 10rem;
@@ -63,14 +63,15 @@ body.active-modal {
         line-height: 46px;
         color: #171716;
     }
-    .paraa{
+
+    .paraa {
         font-family: 'Sora';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 135%;
-text-align: center;
-color: #EBF243;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 135%;
+        text-align: center;
+        color: #EBF243;
     }
 
 }

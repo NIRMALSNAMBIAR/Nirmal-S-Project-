@@ -6,7 +6,8 @@
     flex-direction: column;
     margin-top: -15.5rem;
     bottom: -37px;
-    p{
+
+    p {
         width: 17rem;
         margin-left: 24px;
         font-family: 'Sora';
@@ -15,7 +16,8 @@
         font-size: 15px;
         color: #828282;
     }
-    img{
+
+    img {
         width: 12rem;
         margin: 46px 83px 147px 0px;
         position: absolute;
@@ -24,8 +26,8 @@
 }
 
 .social__content {
-  
-margin: 4rem;
+
+    margin: 4rem;
 
     .link__content ul h5,
     .support__content ul h5,
@@ -53,8 +55,9 @@ margin: 4rem;
         color: #828282;
     }
 }
+
 @media screen and (max-width:1070px) {
-    .footer__main{
+    .footer__main {
         margin-top: -1.5rem !important;
     }
 }

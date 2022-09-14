@@ -6,7 +6,7 @@ import image1 from "../../assets/Screen3/box1_container2.svg";
 import image2 from "../../assets/Screen3/box2_container2.svg";
 import image3 from "../../assets/Screen3/image_third.svg";
 import image4 from "../../assets/Screen3/image__forth.svg";
-import Footer from "../Footer/Footer"
+import Footer from "../Footer/Footer";
 const Screen3 = () => {
   return (
     <>
@@ -15,7 +15,16 @@ const Screen3 = () => {
         <div className="container__first">
           <div className="container__content">
             <h2>FURY KITS</h2>
-            <button className="claim__now">  <Link to='/screen4' style={{textDecoration:"none",color:"#ffffff"}}> Claim Now</Link></button>
+            <button className="claim__now">
+              {" "}
+              <Link
+                to="/screen4"
+                style={{ textDecoration: "none", color: "#ffffff" }}
+              >
+                {" "}
+                Claim Now
+              </Link>
+            </button>
           </div>
         </div>
         <div className="container__second">
@@ -33,7 +42,7 @@ const Screen3 = () => {
           </div>
         </div>
         <div className="container__third">
-          <div className="content__main" >
+          <div className="content__main">
             <div className="content__text">
               <h3>ABOUT FANFURY</h3>
               <p>
@@ -52,7 +61,7 @@ const Screen3 = () => {
               </p>
               <button className="readMore">Read More</button>
             </div>
-            <img src={image3} alt=""  className="image_pos" srcset="" />
+            <img src={image3} alt="" className="image_pos" srcset="" />
           </div>
         </div>
         <div className="container__forth">
@@ -74,8 +83,8 @@ const Screen3 = () => {
             </div>
           </div>
         </div>
-        <Footer/></div>
-      
+        <Footer />
+      </div>
     </>
   );
 };

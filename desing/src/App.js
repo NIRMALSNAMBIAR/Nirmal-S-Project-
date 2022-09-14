@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<HomePage />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/connect-wallet" element={<HeroConnectWallet />}></Route>
-       
+
         <Route
           path="/payment-integration"
           element={<PaymentIntegration />}
