@@ -53,3 +53,8 @@ margin: 4rem;
         color: #828282;
     }
 }
+@media screen and (max-width:1070px) {
+    .footer__main{
+        margin-top: -1.5rem !important;
+    }
+}

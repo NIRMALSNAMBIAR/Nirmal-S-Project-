@@ -44,7 +44,7 @@ const Screen4 = () => {
               <p>$100</p>
               <button>Claim Now</button>
             </div>
-            <p>
+            <p className="para1">
               Claim the Basic Kit and avail the Membership Bonus. Please click
               the “question mark” icon for details on the exclusive bonus
               available on this package.
@@ -129,7 +129,7 @@ const Screen4 = () => {
               <p>$500</p>
               <button>Claim Now</button>
             </div>
-            <p>
+            <p className="para1">
               Claim the Pro Kit at 5% discount. Please click the “question mark”
               icon for details on the exclusive bonus available on this package
             </p>
@@ -212,7 +212,7 @@ const Screen4 = () => {
               <p>$1000</p>
               <button>Claim Now</button>
             </div>
-            <p>
+            <p className="para1">
               Claim the Elite Kit at 10% discount. Please click the “question
               mark” icon for details on the exclusive bonus available on this
               package.{" "}
@@ -285,18 +285,18 @@ const Screen4 = () => {
           </div>
         </div>
         <div className="container__box">
-          <h3 style={{ margin: "0 47rem 23px 0" }}>
+          <h3 className="legendry" style={{ margin: "0 47rem 23px 0" }}>
             {" "}
             <span>Legendary </span> &nbsp; $FURY Kit
           </h3>
           <div className="content__box" style={{ marginBottom: "24rem" }}>
             <img src={image5} alt="" srcset="" />
             <div className="content__a">
-              <h5>Legendary $FURY Kit </h5>
+              <h5 >Legendary $FURY Kit </h5>
               <p>$2500</p>
               <button>Claim Now</button>
             </div>
-            <p>
+            <p className="para1">
               Claim the Legendary Kit at 12% discount. Please click the
               “question mark” icon for details on the exclusive bonus available
               on this package.{" "}
